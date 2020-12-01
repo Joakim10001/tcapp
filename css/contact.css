@@ -1,0 +1,36 @@
+.view-id-kontakt_ ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.view-id-kontakt_ li {
+  background: white;
+  margin: 1vh 0;
+  border-radius: 15px;
+  display: grid;
+  grid-template-areas: "img name", "img title", "img email", "img number";
+}
+
+.views-field-field-contact-image {
+  grid-area: img;
+}
+
+.views-field-title {
+  grid-area: name;
+  font-weight: bold;
+}
+
+.views-field-field-contact-position {
+  grid-area: title;
+}
+
+.views-field-field-contact-email {
+  grid-area: email;
+}
+
+.views-field-field-contact-number {
+  grid-area: number;
+}
+
+/*# sourceMappingURL=contact.css.map */
