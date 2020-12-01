@@ -1,0 +1,10 @@
+.is-promoted h2 {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+.is-promoted h2 a {
+  color: white;
+  text-decoration: none;
+}
