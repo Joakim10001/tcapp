@@ -7,30 +7,42 @@
 .view-id-kontakt_ li {
   background: white;
   margin: 1vh 0;
+  padding: 5%;
   border-radius: 15px;
-
   display: grid;
-  grid-template-areas:
-  "img name",
-  "img title",
-  "img email",
-  "img number";
+  gap: 0 5%;
+  grid-template-areas: "img name" "img title" "img email" "img number";
 }
 
 .views-field-field-contact-image {
   grid-area: img;
+  border-radius: 15px;
 }
-.views-field-title{
-  grid-area: name;
+.views-field-field-contact-image img {
+  width: 100%;
+  border-radius: 15px;
+}
 
-  font-weight: bold;
+.views-field-title {
+  grid-area: name;
 }
-.views-field-field-contact-position{
+.views-field-title h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.views-field-field-contact-position {
   grid-area: title;
+  font-weight: bold;
+
 }
-.views-field-field-contact-email{
+
+.views-field-field-contact-email {
   grid-area: email;
 }
-.views-field-field-contact-number{
+
+.views-field-field-contact-number {
   grid-area: number;
 }
+
+/*# sourceMappingURL=contact.css.map */
