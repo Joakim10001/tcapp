@@ -4,21 +4,29 @@
   margin: 0;
 }
 
-.view-id-kontakt_ li {
+.view-id-kontakt_ li, .contacts .content  {
   background: white;
-  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);  margin: 3.2vh 0;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+  margin: 3.2vh 0;
   padding: 5%;
   border-radius: 15px;
   display: grid;
   gap: 0 5%;
+}
+.view-id-kontakt_ li {
   grid-template-areas: "img name" "img title" "img email" "img number";
 }
+.contacts .content  {
+  grid-template-areas: "img title" "img email" "img number";
+  margin-top: 0;
 
-.views-field-field-contact-image {
+}
+
+.views-field-field-contact-image, .field--name-field-contact-image {
   grid-area: img;
   border-radius: 15px;
 }
-.views-field-field-contact-image img {
+.views-field-field-contact-image img, .field--name-field-contact-image img {
   width: 100%;
   min-width: 126px;
   border-radius: 15px;
@@ -32,17 +40,16 @@
   margin: 0;
 }
 
-.views-field-field-contact-position {
+.views-field-field-contact-position, .field--name-field-contact-position{
   grid-area: title;
   font-weight: bold;
-
 }
 
-.views-field-field-contact-email {
+.views-field-field-contact-email, .field--name-field-contact-email {
   grid-area: email;
 }
 
-.views-field-field-contact-number {
+.views-field-field-contact-number, .field--name-field-contact-number {
   grid-area: number;
 }
 
