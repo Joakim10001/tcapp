@@ -1,4 +1,4 @@
-main-container {
+.main-container {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -8,6 +8,18 @@ main-container {
   width: 100%;
   border-radius: 15px;
   margin-bottom: 7vh;
+}
+
+.page_title {
+  position: relative;
+}
+
+.page_title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: white;
 }
 
 /*# sourceMappingURL=subpage.css.map */
