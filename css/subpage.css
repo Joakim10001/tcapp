@@ -1,0 +1,13 @@
+main-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.field--name-field-front-page-image img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 7vh;
+}
+
+/*# sourceMappingURL=subpage.css.map */
