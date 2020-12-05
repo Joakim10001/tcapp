@@ -22,6 +22,8 @@
   width: 100%;
   border-radius: 15px;
   margin-bottom: 7vh;
+  height: 16vh;
+  object-fit: cover;
 }
 
 .page_title {
