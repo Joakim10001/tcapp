@@ -1,0 +1,81 @@
+.view-events ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.view-events li {
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);  margin: 3.2vh 0;
+  padding: 5%;
+  border-radius: 15px;
+  display: grid;
+  gap: 0 5%;
+  grid-template-areas: "img title" "time location";
+}
+
+.views-field-field-event-address{
+
+}
+
+.views-field-field-event-link {
+  padding-left: 4.5vh;
+  margin-top: -2vh;
+}
+
+.views-field-field-event-image {
+  grid-area: img;
+  border-radius: 15px;
+  padding-bottom: 1vh;
+  max-width: 80%;
+}
+.views-field-field-event-image img {
+  width: 100%;
+  min-width: 126px;
+  border-radius: 15px;
+}
+
+.views-field-title {
+  grid-area: title;
+}
+.views-field-title h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.field--name-field-front-page-image img{
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.field--name-field-front-page-image{
+  margin-left: -2vh;
+  margin-right: -2vh;
+}
+
+
+.views-field-field-event-position {
+  grid-area: location;
+  font-weight: bold;
+
+}
+
+.views-field-field-event-date {
+  grid-area: time;
+  width: 100%;
+  padding-left: 4.5vh;
+  padding-top: 2.27vh;
+  background-image: url("https://www.pinclipart.com/picdir/big/388-3886103_calendar-icon-calendar-symbol-clipart.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 4.4vh;
+  background-size: 2.7vh;
+}
+
+.footer {
+  margin-top: 0vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
