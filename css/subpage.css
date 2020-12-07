@@ -1,13 +1,44 @@
-main-container {
+.main-container {
   margin: 0;
   padding: 0;
   width: 100vw;
+}
+
+.row {
+  margin: 0;
+}
+
+.main-container .row .col-sm-12 {
+  margin: 0;
+  padding: 0;
+}
+
+.region-content section {
+  width: 92%;
+  margin: auto;
 }
 
 .field--name-field-front-page-image img {
   width: 100%;
   border-radius: 15px;
   margin-bottom: 7vh;
+  height: 16vh;
+  object-fit: cover;
+}
+
+.page_title {
+  position: relative;
+}
+
+.page_title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=subpage.css.map */

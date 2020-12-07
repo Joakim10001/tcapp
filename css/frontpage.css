@@ -8,3 +8,7 @@
   color: white;
   text-decoration: none;
 }
+
+view-frontpage .page_title h1 {
+    display: none;
+}

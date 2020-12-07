@@ -77,13 +77,13 @@
 %}
 <article{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
-  {% if label and not page %}
-    <h2{{ title_attributes }}>
-      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
-  {% endif %}
-  {{ title_suffix }}
+  #{{ title_prefix }}
+  #{% if label and not page %}
+  #  <h2{{ title_attributes }}>
+  #    <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+  #  </h2>
+  #{% endif %}
+  #{{ title_suffix }}
 
 
   {% if display_submitted %}
@@ -98,10 +98,10 @@
 
   <div{{ content_attributes.addClass('content') }}>
     <div{{ content_attributes.addClass('page_title') }}>
-      {{title}}
+      <h1>{{label}}<h1>
       {{content.field_front_page_image}}
     </div>
-    {{ content|wthout('field_front_page_image') }}
+    {{ content|without('field_front_page_image') }}
   </div>
 
 </article>
