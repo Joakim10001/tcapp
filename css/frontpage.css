@@ -92,9 +92,11 @@
 .view-frontpage article{
   height: 100%;
   border-radius: 5px;
+  position: relative;
 }
 .view-frontpage article .content{
   height: 100%;
+  position: relative;
 }
 .view-frontpage article .content .field--name-field-front-page-image{
   height: 100%;
