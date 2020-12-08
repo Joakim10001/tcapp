@@ -1,24 +1,24 @@
-.main-container {
+.page-node-type-page .main-container {
   margin: 0;
   padding: 0;
   width: 100vw;
 }
 
-.row {
+.page-node-type-page .row {
   margin: 0;
 }
 
-.main-container .row .col-sm-12 {
+.page-node-type-page .main-container .row .col-sm-12 {
   margin: 0;
   padding: 0;
 }
 
-.region-content section {
+.page-node-type-page .region-content section {
   width: 92%;
   margin: auto;
 }
 
-.field--name-field-front-page-image img {
+.page-node-type-page .field--name-field-front-page-image img {
   width: 100%;
   border-radius: 15px;
   margin-bottom: 7vh;
@@ -26,11 +26,11 @@
   object-fit: cover;
 }
 
-.page_title {
+.page-node-type-page .page_title {
   position: relative;
 }
 
-.page_title h1 {
+.page-node-type-page .page_title h1 {
   position: absolute;
   top: 50%;
   left: 50%;
