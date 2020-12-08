@@ -54,6 +54,7 @@
 .is-promoted h2 a {
   color: white;
   text-decoration: none;
+
 }
 
 .content .page_title h1 {
@@ -74,6 +75,7 @@
 
 .view-frontpage article{
   height: 100%;
+  border-radius: 5px;
 }
 .view-frontpage article .content{
   height: 100%;
@@ -87,4 +89,5 @@
 .view-frontpage article .content .field--name-field-front-page-image a img{
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
