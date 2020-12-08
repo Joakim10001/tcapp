@@ -3,6 +3,9 @@
  * your custom CSS modifications here.
  */
 @import url(bootstrap.css);
+@import url(subpage.css);
+@import url(frontpage.css);
+
 
 body {
   background: hotpink;
