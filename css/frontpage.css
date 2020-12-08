@@ -91,3 +91,18 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+.block-views-block-frontpage-content-block--frontpage-content-block h2{
+  display: none;
+}
+.block-views-block-frontpage-content-block--frontpage-content-block ul{
+  list-style: none;
+  margin: 2%;
+  padding: 0;
+
+}
+.block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
