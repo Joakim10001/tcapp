@@ -37,6 +37,7 @@
 
 .views-field-title {
   grid-area: name;
+  width: 50vw;
 }
 
 .views-field-title h2 {
