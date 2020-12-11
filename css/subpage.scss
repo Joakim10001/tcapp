@@ -1,0 +1,45 @@
+.page-node-type-page .main-container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.page-node-type-page .row{
+  margin: 0;
+}
+
+.page-node-type-page .main-container .row .col-sm-12 {
+    margin: 0;
+    padding: 0;
+}
+
+.page-node-type-page .region-content section {
+    width: 92%;
+    margin: auto;
+}
+
+.page-node-type-page .field--name-field-front-page-image img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 7vh;
+
+  height: 16vh;
+  object-fit: cover;
+}
+
+.page-node-type-page .page_title {
+  position: relative;
+}
+
+.page-node-type-page .page_title h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+
+  width: 100%;
+  text-align: center;
+
+  color: white;
+  font-weight: bold;
+}
