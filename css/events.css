@@ -17,7 +17,6 @@
 
 .views-field-field-event-link {
   padding-left: 4.5vh;
-  margin-top: -2vh;
 }
 
 .views-field-field-event-image {
@@ -33,7 +32,7 @@
   border-radius: 15px;
 }
 
-.views-field-title {
+.block-views-blockevents-block-1 .views-field-title {
   grid-area: title;
 }
 
@@ -48,7 +47,7 @@
   border-radius: 15px;
 }
 
-.field--name-field-front-page-image {
+.view-events .field--name-field-front-page-image {
   margin-left: -2vh;
   margin-right: -2vh;
 }
