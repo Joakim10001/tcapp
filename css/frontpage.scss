@@ -10,12 +10,15 @@
   float: none !important;
 }
 .region-content .logo {
-  width: 45%;
+  width: 100%;
+  height: 20vh;
   display: block;
   margin: 0 auto 5% auto;
+  background: url(themes/tcapp/images/tc-s-trans.svg) no-repeat;
+  background-position: center;
 }
 .region-content .logo img {
-  width: 100%;
+  display: none;
 }
 
 .field--name-field-front-page-image a img{
