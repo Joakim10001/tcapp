@@ -18,6 +18,10 @@
   margin: auto;
 }
 
+.page-node-type-page .field--name-field-front-page-image {
+  width: 100%;
+}
+
 .page-node-type-page .field--name-field-front-page-image img {
   width: 100%;
   border-radius: 5px;
