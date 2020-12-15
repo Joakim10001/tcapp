@@ -17,7 +17,6 @@
 
 .views-field-field-event-link {
   padding-left: 4.5vh;
-  margin-top: -2vh;
 }
 
 .views-field-field-event-image {
@@ -40,6 +39,17 @@
 .views-field-title h2 {
   padding: 0;
   margin: 0;
+}
+
+.field--name-field-front-page-image img {
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.view-events .field--name-field-front-page-image {
+  margin-left: -2vh;
+  margin-right: -2vh;
 }
 
 .views-field-field-event-position {
