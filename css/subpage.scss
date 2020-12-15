@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100vw;
+  margin: 0 auto;
 }
 
 .page-node-type-page .row{
@@ -16,6 +17,10 @@
 .page-node-type-page .region-content section {
     width: 92%;
     margin: auto;
+}
+
+.page-node-type-page .field--name-field-front-page-image{
+  width: 100%;
 }
 
 .page-node-type-page .field--name-field-front-page-image img {

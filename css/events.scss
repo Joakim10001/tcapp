@@ -42,6 +42,22 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.field--name-field-front-page-image img{
+  margin: auto;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.view-events .field--name-field-front-page-image{
+  margin-left: -2vh;
+  margin-right: -2vh;
+}
+
+
+>>>>>>> 46e2d7ac6c6696413240705f1de3335bdcfad780
 .views-field-field-event-position {
   grid-area: location;
   font-weight: bold;
