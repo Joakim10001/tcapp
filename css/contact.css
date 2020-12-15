@@ -35,12 +35,12 @@
   border-radius: 5px;
 }
 
-.views-field-title {
+.block-views-blockkontakt--block-1 .views-field-title {
   grid-area: name;
   width: 50vw;
 }
 
-.views-field-title h2 {
+.block-views-blockkontakt--block-1 .views-field-title h2 {
   padding: 0;
   margin: 0;
 }
