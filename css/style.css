@@ -7,11 +7,12 @@
 @import url(frontpage.css);
 @import url(contact.css);
 @import url(navbar.css);
+@import url(omoss.css);
+@import url(uf.css);
 
 
 body {
   background:#E8E8E8;
-  padding-bottom: 16vh;
 }
 
 @font-face {
