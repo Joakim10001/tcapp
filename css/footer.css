@@ -52,7 +52,7 @@
 }
 
 .instagram, .facebook, .twitter {
-  margin: 7vw;
+  background-size: contain;
 }
 
 .testedcontainer {
@@ -63,6 +63,8 @@
   padding-top: 3.5vh;
   padding-bottom: 4.5vh;
   margin-top: 5vh;
+  max-width: 100vw;
+  gap: 14vw;
 }
 
 /*# sourceMappingURL=footer.css.map */
