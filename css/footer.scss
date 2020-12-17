@@ -2,9 +2,8 @@
 .footer {
   margin-top: 5vh;
   padding-top: 28vh;
-  padding-bottom: 28vh;
-  border: solid red;
-  margin-bottom: 19vh;
+  padding-bottom: 19vh;
+  margin-bottom: 12vh;
   background: url(http://213.188.152.114/tcapp/web/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
   background-size: 120vh;
@@ -12,22 +11,22 @@
 
 .instagram {
   padding-top: 3.5vh;
-  padding-bottom: 3.5vh;
+  padding-bottom: 4.5vh;
   padding-right: 4.5vh;
   padding-left: 4.5vh;
-  background: url(http://213.188.152.114/tcapp/web/themes/tcapp/images/instagram.svg);
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/instagram.svg);
   background-repeat: no-repeat;
-  background-size: 15vh;
+  background-size: 9vh;
 }
 
 .facebook {
   padding-top: 3.5vh;
-  padding-bottom: 3.5vh;
+  padding-bottom: 4.5vh;
   padding-right: 4.5vh;
   padding-left: 4.5vh;
-  background: url(http://213.188.152.114/tcapp/web/themes/tcapp/images/facebook.svg);
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/facebook.svg);
   background-repeat: no-repeat;
-  background-size: 15vh;
+  background-size: 9vh;
 }
 
 .twitter {
@@ -35,8 +34,36 @@
   padding-bottom: 3.5vh;
   padding-right: 4.5vh;
   padding-left: 4.5vh;
-  background: url(http://213.188.152.114/tcapp/web/themes/tcapp/images/twitter.svg);
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/twitter.svg);
   background-repeat: no-repeat;
-  background-size: 15vh;
+  background-size: 9vh;
 }
+
+.sociala {
+ font-size: 6vh;
+ text-align: center;
+}
+
+.tcstenungsund {
+ font-size: 6vh;
+ text-align: center;
+ margin-top: 2vh;
+}
+
+.instagram,.facebook,.twitter {
+  margin: 7vw;
+}
+
+.testedcontainer {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ justify-content: center;
+ padding-top: 3.5vh;
+ padding-bottom: 4.5vh;
+ margin-top: 5vh;
+}
+
+
+
 /*# sourceMappingURL=footer.css.map */
