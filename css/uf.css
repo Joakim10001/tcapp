@@ -5,9 +5,13 @@
 }
 
 .content .UF {
-  width: 90%;
+  width: 100%;
   text-align: center;
-  margin: 0 auto 10% auto;
+  margin: 0 auto;
+}
+
+.block-views-blockuf-running-view-block-1{
+margin-top: 10%;
 }
 
 .block-views-blockuf-view-block-1 li, .block-views-blockuf-running-view-block-1 li {
