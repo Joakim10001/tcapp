@@ -23,10 +23,12 @@ A Drupal subtheme for the Teknikcollege Stenungsund webapp found att http://app.
 Thanks to the following people who have contributed to this project:
 
 * [@seetee](https://github.com/seetee)
-*.[@arebrinkemil](https://github.com/arebrinkemil)
+* [@arebrinkemil](https://github.com/arebrinkemil)
 * [@Rasmuspetterson01](https://github.com/RasmusPettersson01)
 * [@xslayer6669](https://github.com/xslayer6669)
-*[@klovaaxel](https://github.com/klovaaxel)
+* [@klovaaxel](https://github.com/klovaaxel)
+* [@Obbeen](https://github.com/Obbeen)
+* [@Orveberg](https://github.com/Orveberg)
 
 ## Contact
 
