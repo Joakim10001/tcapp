@@ -3,6 +3,7 @@
  * your custom CSS modifications here.
  */
 @import url(bootstrap.css);
+@import url(utmarkelser.css);
 
 body {
   background:#E8E8E8;
