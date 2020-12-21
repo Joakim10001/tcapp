@@ -3,6 +3,9 @@
  * your custom CSS modifications here.
  */
 @import url(bootstrap.css);
+
+@import url(utmarkelser.css);
+
 @import url(subpage.css);
 @import url(frontpage.css);
 @import url(contact.css);
@@ -11,6 +14,7 @@
 @import url(omoss.css);
 @import url(footer.css);
 @import url(uf.css);
+
 
 
 body {
