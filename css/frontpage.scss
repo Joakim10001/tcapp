@@ -6,11 +6,9 @@
   width: 100%;
   text-align: center;
 }
-
-.region-content .pull-left {
+.region-content .pull-left{
   float: none !important;
 }
-
 .region-content .logo {
   width: 100%;
   height: 32vh;
@@ -25,17 +23,16 @@
   display: none;
 }
 
-.field--name-field-front-page-image a img {
+.field--name-field-front-page-image a img{
   width: 100%;
 }
-
 .view-frontpage .is-promoted h2 a {
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  background: #29568f;
-  background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
-  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  background: rgb(41,86,143);
+  background: linear-gradient(30deg, rgba(41,86,143,1) 0%, rgba(85,85,85,0.36) 100%);
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 }
 
 .view-frontpage .view-content {
@@ -45,7 +42,6 @@
   flex-grow: 3;
   flex-shrink: 3;
 }
-
 .view-frontpage .views-row {
   max-width: 45%;
   margin: 2%;
@@ -53,18 +49,17 @@
   width: 100%;
 }
 
-.view-frontpage article {
+.view-frontpage article{
   height: 100%;
 }
 
-.view-frontpage article .content {
+.view-frontpage article .content{
   height: 100%;
 }
 
-.view-frontpage article .content .field--name-field-front-page-image {
+.view-frontpage article .content .field--name-field-front-page-image{
   height: 100%;
 }
-
 .view-frontpage .is-promoted h2 {
   position: absolute;
   top: 50%;
@@ -75,11 +70,9 @@
   text-align: center;
   z-index: 1;
 }
-
-.view-frontpage .field--name-field-front-page-image a img {
+.view-frontpage .field--name-field-front-page-image a img{
   width: 100%;
 }
-
 .view-frontpage .is-promoted h2 a {
   color: white;
   text-decoration: none;
@@ -87,8 +80,7 @@
   width: 100%;
   height: 100%;
 }
-
-.view-frontpage .is-promoted h2 a span {
+.view-frontpage .is-promoted h2 a span{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -96,7 +88,7 @@
 }
 
 .view-frontpage .content .page_title h1 {
-  display: none;
+  display: none
 }
 
 .view-frontpage .view-content {
@@ -106,58 +98,50 @@
   flex-grow: 3;
   flex-shrink: 3;
 }
-
 .view-frontpage .views-row {
   max-width: 42%;
   margin: 4%;
 }
 
-.view-frontpage article {
+.view-frontpage article{
   height: 100%;
   border-radius: 5px;
   position: relative;
 }
-
-.view-frontpage article .content {
+.view-frontpage article .content{
   height: 100%;
   position: relative;
 }
-
-.view-frontpage article .content .field--name-field-front-page-image {
+.view-frontpage article .content .field--name-field-front-page-image{
   height: 100%;
 }
-
-.view-frontpage article .content .field--name-field-front-page-image a {
+.view-frontpage article .content .field--name-field-front-page-image a{
   height: 100%;
 }
-
-.view-frontpage article .content .field--name-field-front-page-image a img {
+.view-frontpage article .content .field--name-field-front-page-image a img{
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 }
 
-.block-views-block-frontpage-content-block--frontpage-content-block h2 {
+.block-views-block-frontpage-content-block--frontpage-content-block h2{
   display: none;
 }
-
-.block-views-block-frontpage-content-block--frontpage-content-block ul {
+.block-views-block-frontpage-content-block--frontpage-content-block ul{
   list-style: none;
   margin: 4%;
   padding: 0;
-}
 
-.block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video {
+}
+.block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video{
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
   height: 40vw;
-  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
-}
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 
-.feed-icons {
+}
+.feed-icons{
   display: none;
 }
-
-/*# sourceMappingURL=frontpage.css.map */
