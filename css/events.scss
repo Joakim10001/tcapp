@@ -6,7 +6,8 @@
 
 .view-events li {
   background: white;
-  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);  margin: 3.2vh 0;
+  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  margin: 3.2vh 0;
   padding: 5%;
   border-radius: 15px;
   display: grid;
@@ -14,13 +15,8 @@
   grid-template-areas: "img title" "time location";
 }
 
-.views-field-field-event-address{
-
-}
-
 .views-field-field-event-link {
   padding-left: 4.5vh;
-  margin-top: -2vh;
 }
 
 .views-field-field-event-image {
@@ -29,15 +25,17 @@
   padding-bottom: 1vh;
   max-width: 80%;
 }
+
 .views-field-field-event-image img {
   width: 100%;
   min-width: 126px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
-.views-field-title {
+.block-views-blockevents-block-1 .views-field-title {
   grid-area: title;
 }
+
 .views-field-title h2 {
   padding: 0;
   margin: 0;
@@ -50,7 +48,7 @@
 }
 
 
-.field--name-field-front-page-image{
+.view-events .field--name-field-front-page-image{
   margin-left: -2vh;
   margin-right: -2vh;
 }
@@ -59,7 +57,6 @@
 .views-field-field-event-position {
   grid-area: location;
   font-weight: bold;
-
 }
 
 .views-field-field-event-date {
@@ -78,4 +75,8 @@
   margin-top: 0vh;
   padding-top: 2vh;
   padding-bottom: 2vh;
+}
+
+.views-row h2 a[href$="/tcapp/web/evenemang"] {
+  background: linear-gradient(30deg, rgba(211, 145, 0 ,1) 0%, rgba(85,85,85,0.36) 100%);
 }

@@ -35,12 +35,12 @@
   border-radius: 5px;
 }
 
-.views-field-title {
+.block-views-blockkontakt--block-1 .views-field-title {
   grid-area: name;
   width: 50vw;
 }
 
-.views-field-title h2 {
+.block-views-blockkontakt--block-1 .views-field-title h2 {
   padding: 0;
   margin: 0;
 }
@@ -52,12 +52,23 @@
 
 .views-field-field-contact-email, .field--name-field-contact-email {
   grid-area: email;
+  font-size: 1.5rem;
 }
 
 .views-field-field-contact-number, .field--name-field-contact-number {
   grid-area: number;
 }
 
+@media only screen and (max-width: 500px) {
+  .views-field-field-contact-email, .field--name-field-contact-email {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .views-field-field-contact-email, .field--name-field-contact-email {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
 
 /*# sourceMappingURL=contact.css.map */
