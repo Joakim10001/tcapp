@@ -1,0 +1,53 @@
+.block-views-blockuf-view-block-1 ul, .block-views-blockuf-running-view-block-1 ul{
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+.content .UF {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto 10% auto;
+}
+
+.block-views-blockuf-view-block-1 li,.block-views-blockuf-running-view-block-1 li {
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  margin: 3.2vh 0;
+  padding: 5%;
+  border-radius: 5px;
+  gap: 0 5%;
+  grid-template-areas: "img title" "img sum" "img link";
+  display: grid;
+}
+
+.block-views-blockuf-view-block-1 .views-field-title, .block-views-blockuf-running-view-block-1 .views-field-title {
+  grid-area: title;
+  text-align: center;
+  width: 50vw;
+}
+
+.block-views-blockuf-view-block-1 .views-field-body, .block-views-blockuf-running-view-block-1 .views-field-body {
+  grid-area: sum;
+}
+
+.block-views-blockuf-view-block-1 .views-field-field-uf-logga, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga {
+  grid-area: img;
+  border-radius: 5px;
+}
+
+.block-views-blockuf-view-block-1 .views-field-field-uf-logga img, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga img {
+  width: 100%;
+  min-width: 126px;
+  min-height: 126px;
+  border-radius: 5px;
+}
+
+.block-views-blockuf-view-block-1 .views-field-field-uf-link, .block-views-blockuf-running-view-block-1 .views-field-field-uf-link {
+  grid-area: link;
+  text-align: right;
+}
+
+.block-views-blockuf-view-block-1 .views-field, .block-views-blockuf-running-view-block-1 .views-field {
+  padding-right: 12%;
+  width: 100%;
+}
