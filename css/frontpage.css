@@ -35,7 +35,6 @@
   border-radius: 5px;
   background: #29568f;
   background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
-  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
 }
 
 .view-frontpage .view-content {
