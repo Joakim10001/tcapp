@@ -83,6 +83,10 @@
   padding: ;
   padding-left: 8.5vw;
   text-align: center;
+
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #block-tcapp-search .input-group-btn {
@@ -93,8 +97,32 @@
   height: 100%;
   width: 100%;
   padding: 0;
+
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 #block-tcapp-search span.icon {
   font-size: 3em;
+}
+
+.region-content .search-form {
+  display: none;
+}
+
+.region-content h2:first-of-type{
+  text-align: center;
+  margin: 3em;
+}
+
+.main-container ol{
+  list-style: none
+}
+.main-container ol li{
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+  margin: 3.2vh 0;
+  padding: 5%;
+  border-radius: 5px;
 }
