@@ -50,7 +50,7 @@
   position: absolute;
   right: 11%;
   height: 100%;
-  font-size: 3em;
+  font-size: 1.5em;
   background: none;
   border: none;
 }
@@ -80,8 +80,7 @@
   height: 100%;
   border: none;
   font-size: 2em;
-  padding: ;
-  padding-left: 8.5vw;
+  padding-left: min(15vw, 110px);
   text-align: center;
 
   border-radius: 5px;
@@ -90,7 +89,8 @@
 }
 
 #block-tcapp-search .input-group-btn {
-  min-width: 8vw;
+  width: 15vw;
+  max-width: 100px;
 }
 
 #block-tcapp-search .input-group-btn > button:nth-child(1) {
@@ -104,7 +104,7 @@
 }
 
 #block-tcapp-search span.icon {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .region-content .search-form {
