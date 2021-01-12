@@ -9,7 +9,7 @@
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   margin: 3.2vh 0;
   padding: 5%;
-  border-radius: 15px;
+  border-radius: 5px;
   display: grid;
   gap: 0 5%;
   grid-template-areas: "img title" "time location";
@@ -21,7 +21,7 @@
 
 .views-field-field-event-image {
   grid-area: img;
-  border-radius: 15px;
+  border-radius: 5px;
   padding-bottom: 1vh;
   max-width: 80%;
 }
