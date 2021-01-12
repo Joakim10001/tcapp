@@ -51,7 +51,13 @@
   right: 11%;
   height: 100%;
   font-size: 1.5em;
+  color: white;
   background: none;
+  border: none;
+}
+
+#block-searchbutton button.icon:focus {
+  outline: none;
   border: none;
 }
 
@@ -65,6 +71,7 @@
 
 #search-block-form {
   height: 100%;
+  display: none;
 }
 
 #block-tcapp-search .form-item {
@@ -111,10 +118,10 @@
   display: none;
 }
 
-.region-content h2:first-of-type{
-  text-align: center;
-  margin: 3em;
-}
+//.region-content h2:first-of-type{
+//  text-align: center;
+//  margin: 3em;
+//}
 
 .main-container ol{
   list-style: none

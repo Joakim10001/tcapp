@@ -35,7 +35,8 @@
   border-radius: 5px;
   background: #29568f;
   background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
-  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+}
+
 }
 
 .view-frontpage .view-content {
@@ -110,6 +111,7 @@
 .view-frontpage .views-row {
   max-width: 42%;
   margin: 4%;
+  max-height: 24vh;
 }
 
 .view-frontpage article {
@@ -150,6 +152,7 @@
 
 .block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video {
   width: 100%;
+  max-height: 30vh;
   object-fit: cover;
   border-radius: 5px;
   height: 40vw;
