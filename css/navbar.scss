@@ -50,8 +50,14 @@
   position: absolute;
   right: 11%;
   height: 100%;
-  font-size: 3em;
+  font-size: 1.5em;
+  color: white;
   background: none;
+  border: none;
+}
+
+#block-searchbutton button.icon:focus {
+  outline: none;
   border: none;
 }
 
