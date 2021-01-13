@@ -37,6 +37,8 @@
   background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
 }
 
+}
+
 .view-frontpage .view-content {
   display: flex;
   flex-wrap: wrap;

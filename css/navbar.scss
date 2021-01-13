@@ -87,7 +87,7 @@
   height: 100%;
   border: none;
   font-size: 2em;
-  padding-left: 8.5vw;
+  padding-left: min(15vw, 110px);
   text-align: center;
 
   border-radius: 5px;
@@ -96,7 +96,8 @@
 }
 
 #block-tcapp-search .input-group-btn {
-  min-width: 8vw;
+  width: 15vw;
+  max-width: 100px;
 }
 
 #block-tcapp-search .input-group-btn > button:nth-child(1) {
