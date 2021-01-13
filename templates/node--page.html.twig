@@ -97,7 +97,7 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('content') }}>
-    <div{{ content_attributes.addClass('page_title') }}>
+    <div{{ content_attributes.addClass('page_title', url|clean_class) }}>
       <h1>{{label}}</h1>
       {{content.field_front_page_image}}
     </div>
