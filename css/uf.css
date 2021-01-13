@@ -5,13 +5,12 @@
 }
 
 .content .UF {
-  width: 100%;
+  width: 90%;
   text-align: center;
-  margin: 0 auto;
 }
 
-.block-views-blockuf-running-view-block-1{
-margin-top: 10%;
+.block-views-block-uf-running-view-block-1 {
+  margin: 0 auto 10% auto;
 }
 
 .block-views-blockuf-view-block-1 li, .block-views-blockuf-running-view-block-1 li {
@@ -54,6 +53,7 @@ margin-top: 10%;
 
 .block-views-blockuf-view-block-1 .views-field, .block-views-blockuf-running-view-block-1 .views-field {
   padding-right: 12%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=uf.css.map */
