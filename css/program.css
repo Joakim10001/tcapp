@@ -1,0 +1,50 @@
+.view-id-program li h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.view-id-program li h2 a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #29568f;
+  background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.view-id-program li h2 a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.view-id-program .page_title h1 {
+  display: none;
+}
+
+.view-id-program ul {
+  padding: 0;
+  margin: 8vh 0 0 0;
+}
+
+/*# sourceMappingURL=program.css.map */
