@@ -6,6 +6,8 @@
   background: url(http://213.188.152.114/tcapp/web/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
   background-size: 120vh;
+  border: none;
+  max-width: none;
 }
 
 .instagram {
@@ -67,6 +69,11 @@
   gap: 14vw;
 }
 
+@media (orientation: landscape) {
+  .footer {
+    background-position: center;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
 
 /*# sourceMappingURL=footer.css.map */
