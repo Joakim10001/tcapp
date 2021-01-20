@@ -1,3 +1,7 @@
+.view-id-program li {
+  position: relative;
+}
+
 .view-id-program li h2 {
   position: absolute;
   top: 50%;
