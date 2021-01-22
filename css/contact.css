@@ -59,6 +59,27 @@
   grid-area: number;
 }
 
+.google-maps h2 {
+  display: none;
+}
+
+.google-maps .field--label {
+  display: none;
+}
+
+.google-maps iframe {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.google-maps .field--item {
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  margin: 3.2vh 0;
+  padding: 3%;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 500px) {
   .views-field-field-contact-email, .field--name-field-contact-email {
     font-size: 1.1rem;
