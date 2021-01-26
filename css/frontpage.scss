@@ -1,12 +1,13 @@
-.view-frontpage .is-promoted h2 {
+.view-frontpage .is-promoted h2 { //targets all h2 on teasers on frontpage
+  //centers h2 in box
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  width: 100%;
+  transform: translateY(-50%) translateX(-50%); //centers text in box
+  width: 100%; //centers text in text box
   text-align: center;
 }
-.region-content .pull-left{
+.region-content .pull-left{ //
   float: none !important;
 }
 .region-content .logo {
