@@ -1,66 +1,67 @@
-.view-events ul {
+.view-events ul { //removes list-style on all unorderd lists on events page
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.view-events li {
+.view-events li { //makes all list items on events page act like a card;
   background: white;
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   margin: 3.2vh 0;
   padding: 5%;
   border-radius: 15px;
+  //displays all content as grid and in areas img, title and location
   display: grid;
   gap: 0 5%;
   grid-template-areas: "img title" "time location";
 }
 
-.views-field-field-event-link {
+.views-field-field-event-link { //targets the field 'event-link' in event card
   padding-left: 4.5vh;
 }
 
-.views-field-field-event-image {
-  grid-area: img;
+.views-field-field-event-image { //targets the field 'event-image' in event card
+  grid-area: img; //places 'event-image' in image area
   border-radius: 15px;
   padding-bottom: 1vh;
   max-width: 80%;
 }
 
-.views-field-field-event-image img {
+.views-field-field-event-image img { //targets the image in 'image-field'
   width: 100%;
   min-width: 126px;
   border-radius: 5px;
 }
 
-.block-views-blockevents-block-1 .views-field-title {
-  grid-area: title;
+.block-views-blockevents-block-1 .views-field-title { //targets the 'field-title' in event card
+  grid-area: title; //places 'feild-title' in title area in grid
 }
 
-.views-field-title h2 {
+.views-field-title h2 { //targets the 'field-title' removes all paddings and margins
   padding: 0;
   margin: 0;
 }
 
-.field--name-field-front-page-image img{
+.field--name-field-front-page-image img{ //targets the image in the field 'frontpage-image'
   margin: auto;
   width: 100%;
   border-radius: 15px;
 }
 
-
-.view-events .field--name-field-front-page-image{
+.view-events .field--name-field-front-page-image{ //targets the field 'frontpage-image'
   margin-left: -2vh;
   margin-right: -2vh;
 }
 
 
-.views-field-field-event-position {
-  grid-area: location;
+.views-field-field-event-position { //targets the field 'event-position'
+  grid-area: location; //places it in the location area in the grid
   font-weight: bold;
 }
 
-.views-field-field-event-date {
-  grid-area: time;
+.views-field-field-event-date { //targets the field 'event-date'
+  grid-area: time; // places it in the grid area time
+  //adds the calendar icon as background and places it to the left
   width: 100%;
   padding-left: 4.5vh;
   padding-top: 2.27vh;
@@ -71,9 +72,10 @@
   background-size: 2.7vh;
 }
 
-.views-row h2 a[href$="/tcapp/web/evenemang"] {
+//color for gradient on banner and on teser on frontpage
+.views-row h2 a[href$="/tcapp/web/evenemang"] { //targets teaser on frontpage ending in evenemang
   background: linear-gradient(30deg, #31B1B1 10%, #19595955 100%);
 }
-.-tcapp-web-evenemang .page-node-type-page .page_title .field--label {
+.-tcapp-web-evenemang .page-node-type-page .page_title .field--label { //targets banner on top of events page
   background: linear-gradient(30deg, #31B1B1 10%, #19595955 100%);
 }
