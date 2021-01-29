@@ -4,27 +4,27 @@
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%); //centers text in box
-  width: 100%; //centers text in text box
-  text-align: center;
+  width: 100%;
+  text-align: center; //centers text in text box
 }
-.region-content .pull-left{ //
-  float: none !important;
+.region-content .pull-left{ //targets all items with pull left inside content and disabels it
+  float: none !important; //disabels the float left important in bootstrap
 }
-.region-content .logo {
+.region-content .logo { //targets frontpage logo
   width: 100%;
   height: 32vh;
   display: block;
   margin: 5% auto 5% auto;
-  background: url(../images/tc-s-trans.svg) no-repeat;
+  background: url(../images/tc-s-trans.svg) no-repeat; //sets background to be the tc-logo
   background-position: center;
   background-size: contain;
 }
 
-.region-content .logo img {
-  display: none;
+.region-content .logo img { //targets img in frontpage logo
+  display: none; //removes display on frontpage logo image (replaced by background image)
 }
 
-.field--name-field-front-page-image a img{
+.field--name-field-front-page-image a img{ //tagets the img in the a tag in frontpage-image
   width: 100%;
 }
 .view-frontpage .is-promoted h2 a {
