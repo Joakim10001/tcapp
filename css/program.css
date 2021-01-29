@@ -51,11 +51,11 @@
   margin: 8vh 0 0 0;
 }
 
-.-tcapp-web-program .page-node-type-page .page_title .field--label {
+.-program .page-node-type-page .page_title .field--label {
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
-.views-row h2 a[href$="/tcapp/web/program"] {
+.views-row h2 a[href$=program] {
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 

@@ -27,19 +27,18 @@ body {
   background:#E8E8E8;
 }
 
-.-tcapp-web-foretag .page-node-type-page .page_title .field--label {
+.-foretag .page-node-type-page .page_title .field--label {
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
-.views-row h2 a[href$="/tcapp/web/foretag"] {
+.views-row h2 a[href$="foretag"] {
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
 
 /*Styling för bild (För företag)*/
 
-.-tcapp-web-foretag + div img {
+.-foretag + div img {
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   border-radius: 5px;
 }
-
