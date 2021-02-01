@@ -25,7 +25,7 @@
 
 .page-node-type-page .field--name-field-front-page-image img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
   margin-bottom: 7vh;
   height: 16vh;
   object-fit: cover;
@@ -54,14 +54,14 @@
   color: #0000;
   clip: auto;
   clip-path: none;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
   background: #29568f;
   background: linear-gradient(30deg, #29568f 0%, rgba(85, 85, 85, 0.36) 100%);
 }
 
 .content .field--name-body .field--item {
   background: white;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
   padding: 3%;
   width: 92%;
   margin: 0 auto 0 auto;

@@ -9,7 +9,7 @@
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   margin: 3.2vh 0;
   padding: 5%;
-  border-radius: 15px;
+  border-radius: 5px;
   //displays all content as grid and in areas img, title and location
   display: grid;
   gap: 0 5%;
@@ -22,7 +22,7 @@
 
 .views-field-field-event-image { //targets the field 'event-image' in event card
   grid-area: img; //places 'event-image' in image area
-  border-radius: 15px;
+  border-radius: 5px;
   padding-bottom: 1vh;
   max-width: 80%;
 }
@@ -45,7 +45,7 @@
 .field--name-field-front-page-image img{ //targets the image in the field 'frontpage-image'
   margin: auto;
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .view-events .field--name-field-front-page-image{ //targets the field 'frontpage-image'
