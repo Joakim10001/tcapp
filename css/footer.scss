@@ -1,14 +1,11 @@
-
 .footer { //targets the .footer (site wide)
   margin-top: 5vh;
   padding-top: 28vh;
   padding-bottom: 19vh;
   margin-bottom: 12vh;
-  background: url(http://213.188.152.114/tcapp/web/themes/tcapp/logo.svg);   //sets background to tc crown;
+  background: url(/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
   background-size: 113vh;
-  border: none;
-  max-width: none;
 }
 
 .instagram { //targets instagram logo in footer
@@ -32,6 +29,7 @@
   background-repeat: no-repeat;
   background-size: 9vh;
 }
+
 
 .twitter { //targets twitter in footer
   padding-top: 3.5vh;
