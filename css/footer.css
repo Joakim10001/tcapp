@@ -3,7 +3,7 @@
   padding-top: 28vh;
   padding-bottom: 19vh;
   margin-bottom: 12vh;
-  background: url(http://213.188.152.114/tcapp/web/themes/tcapp/logo.svg);
+  background: url(/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
   background-size: 120vh;
 }
