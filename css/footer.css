@@ -5,7 +5,9 @@
   margin-bottom: 12vh;
   background: url(/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
-  background-size: 120vh;
+  background-size: 113vh;
+  border: none;
+  max-width: none;
 }
 
 .instagram {
@@ -51,6 +53,18 @@
 
 .instagram, .facebook, .twitter {
   margin: 7vw;
+  color: #29568f;
+}
+
+.tcstenungsund {
+  font-size: 5.5vh;
+  text-align: center;
+  margin-top: 2vh;
+  color: #29568f;
+}
+
+.instagram, .facebook, .twitter {
+  background-size: contain;
 }
 
 .testedcontainer {
@@ -61,8 +75,15 @@
   padding-top: 3.5vh;
   padding-bottom: 4.5vh;
   margin-top: 5vh;
+  max-width: 100vw;
+  gap: 14vw;
 }
 
-/*# sourceMappingURL=footer.css.map */
-
-/*# sourceMappingURL=footer.css.map */
+@media (orientation: landscape) {
+  .footer {
+    background-position: center;
+  }
+}
+.footer a:hover {
+  text-decoration: none;
+}

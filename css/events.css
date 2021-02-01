@@ -29,7 +29,7 @@
 .views-field-field-event-image img {
   width: 100%;
   min-width: 126px;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .block-views-blockevents-block-1 .views-field-title {
@@ -69,5 +69,10 @@
   background-size: 2.7vh;
 }
 
+.views-row h2 a[href$=evenemang] {
+  background: linear-gradient(30deg, #31B1B1 10%, #19595955 100%);
+}
 
-/*# sourceMappingURL=events.css.map */
+.-evenemang .page-node-type-page .page_title .field--label {
+  background: linear-gradient(30deg, #31B1B1 10%, #19595955 100%);
+}

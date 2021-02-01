@@ -1,0 +1,49 @@
+/* bootstrap.css | http://213.188.152.114/tcapp/web/themes/tcapp/css/bootstrap.css */
+
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl {
+  /* margin-top: 0; */
+  /* margin-bottom: 1rem; */
+  display: flex;
+  /*! justify-content: space-between; */
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0;
+
+
+}
+
+
+
+
+
+
+.view-utmarkelser .item-list > ul:nth-child(1) > li {
+   max-width: 260px;
+  min-width: 250px;
+margin: 4%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+   list-style: none;
+   background-color: white;
+  font-size: 1.5rem;
+
+}
+
+.views-row h2 a[href$="/tcapp/web/utmarkelser"] {
+  background: linear-gradient(30deg, #D39100 10%, #19595955 100%);
+}
+.-tcapp-web-utmarkelser .page-node-type-page .page_title .field--label {
+  background: linear-gradient(30deg, #D39100 10%, #19595955 100%);
+}
+
+.view-utmarkelser .item-list > ul > li > article > h2 {
+  font-size:2.5rem;
+}
+
+/* bootstrap.css | http://213.188.152.114/tcapp/web/themes/tcapp/css/bootstrap.css */
+
+
+
+
+}
