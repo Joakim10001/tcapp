@@ -4,18 +4,20 @@
   margin: 0;
 }
 
-.view-events li { //makes all list items on events page act like a card;
+.view-events li, .view-oldevents li{ //makes all list items on events page act like a card;
   background: white;
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   margin: 3.2vh 0;
   padding: 5%;
   border-radius: 5px;
-  //displays all content as grid and in areas img, title and location
+  /*displays all content as grid and in areas img, title and location*/
   display: grid;
   gap: 0 5%;
   grid-template-areas: "img title" "time location";
 }
-
+.view-oldevents li{
+  filter: brightness(70%);
+}
 .views-field-field-event-link { //targets the field 'event-link' in event card
   padding-left: 4.5vh;
 }
