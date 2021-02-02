@@ -6,8 +6,6 @@
   background: url(/themes/tcapp/logo.svg);
   background-repeat: no-repeat;
   background-size: 113vh;
-  border: none;
-  max-width: none;
 }
 
 .instagram {
@@ -43,16 +41,6 @@
 .sociala {
   font-size: 6vh;
   text-align: center;
-}
-
-.tcstenungsund {
-  font-size: 6vh;
-  text-align: center;
-  margin-top: 2vh;
-}
-
-.instagram, .facebook, .twitter {
-  margin: 7vw;
   color: #29568f;
 }
 
@@ -76,7 +64,6 @@
   padding-bottom: 4.5vh;
   margin-top: 5vh;
   max-width: 100vw;
-  gap: 14vw;
 }
 
 @media (orientation: landscape) {
@@ -87,3 +74,5 @@
 .footer a:hover {
   text-decoration: none;
 }
+
+/*# sourceMappingURL=footer.css.map */
