@@ -51,6 +51,21 @@
   margin: 8vh 0 0 0;
 }
 
+
+@media (orientation: landscape) {
+  .-program + div + div .field--items {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .-program + div + div .field--items div:nth-child(2) > img:nth-child(1) {
+    margin-left: 2vh;
+  }
+}
+.-program + div + div img {
+  padding-top: 5vh;
+}
+
 .-program .page-node-type-page .page_title .field--label {
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
