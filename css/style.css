@@ -2,25 +2,6 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
- body { /*styles the body on all pages*/
-   background:#E8E8E8;
- }
-
- .-foretag .page-node-type-page .page_title .field--label { /*styles för företag header*/
-   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
- }
-
- .views-row h2 a[href$="foretag"] { /*styles the för föreatag teaser on frontpage*/
-   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
- }
-
-
- /*Styling för bild (För företag)*/
- .-foretag + div img {
-   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
-   border-radius: 5px;
- }
-
 
  /*IMPORTS --General css*/
 @import url(bootstrap.css);
@@ -39,3 +20,22 @@
 @import url(samverkanforetag.css);
 @import url(textblock.css);
 @import url(program.css);
+
+body { /*styles the body on all pages*/
+  background:#E8E8E8;
+}
+
+.-foretag .page-node-type-page .page_title .field--label { /*styles för företag header*/
+  background: linear-gradient(30deg, #D39100 10%, #5555 100%);
+}
+
+.views-row h2 a[href$="foretag"] { /*styles the för föreatag teaser on frontpage*/
+  background: linear-gradient(30deg, #D39100 10%, #5555 100%);
+}
+
+
+/*Styling för bild (För företag)*/
+.-foretag + div img {
+  box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
+  border-radius: 5px;
+}
