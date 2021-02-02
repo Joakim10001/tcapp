@@ -1,3 +1,7 @@
+.view-id-program li {
+  position: relative;
+}
+
 .view-id-program li h2 {
   position: absolute;
   top: 50%;
@@ -47,6 +51,7 @@
   margin: 8vh 0 0 0;
 }
 
+
 @media (orientation: landscape) {
   .-program + div + div .field--items {
     display: flex;
@@ -59,6 +64,14 @@
 }
 .-program + div + div img {
   padding-top: 5vh;
+}
+
+.-program .page-node-type-page .page_title .field--label {
+  background: linear-gradient(30deg, #D39100 10%, #5555 100%);
+}
+
+.views-row h2 a[href$=program] {
+  background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
 /*# sourceMappingURL=program.css.map */

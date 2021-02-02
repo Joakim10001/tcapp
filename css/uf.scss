@@ -1,17 +1,21 @@
-.block-views-blockuf-view-block-1 ul, .block-views-blockuf-running-view-block-1 ul{
+.block-views-blockuf-view-block-1 ul, .block-views-blockuf-running-view-block-1 ul{ //targets the ul lists that contain the UFs
   list-style: none;
   width: 100%;
   padding: 0;
 }
-.content .UF {
+.content .UF { //targets the body text on the UF subpage
   width: 90%;
   text-align: center;
 }
-.block-views-block-uf-running-view-block-1{
+.block-views-block-uf-running-view-block-1{ //targets the running uf block
   margin: 0 auto 10% auto;
 }
 
-.block-views-blockuf-view-block-1 li,.block-views-blockuf-running-view-block-1 li {
+#block-views-block-uf-running-view-block-1 { //targets the running uf block
+  margin-top: 10%;
+}
+
+.block-views-blockuf-view-block-1 li,.block-views-blockuf-running-view-block-1 li { //targets all the individul cards that contain the uf
   background: white;
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
   margin: 3.2vh 0;
@@ -22,34 +26,42 @@
   display: grid;
 }
 
-.block-views-blockuf-view-block-1 .views-field-title, .block-views-blockuf-running-view-block-1 .views-field-title {
+.block-views-blockuf-view-block-1 .views-field-title, .block-views-blockuf-running-view-block-1 .views-field-title { //taregts the uf names
   grid-area: title;
   text-align: center;
   width: 50vw;
 }
 
-.block-views-blockuf-view-block-1 .views-field-body, .block-views-blockuf-running-view-block-1 .views-field-body {
+.block-views-blockuf-view-block-1 .views-field-body, .block-views-blockuf-running-view-block-1 .views-field-body { //targets the summary of all the UF
   grid-area: sum;
 }
 
-.block-views-blockuf-view-block-1 .views-field-field-uf-logga, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga {
+.block-views-blockuf-view-block-1 .views-field-field-uf-logga, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga { //targets all the containers of the uf logos
   grid-area: img;
   border-radius: 5px;
 }
 
-.block-views-blockuf-view-block-1 .views-field-field-uf-logga img, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga img {
+.block-views-blockuf-view-block-1 .views-field-field-uf-logga img, .block-views-blockuf-running-view-block-1 .views-field-field-uf-logga img { //targets all the uf logos
   width: 100%;
   min-width: 126px;
   min-height: 126px;
   border-radius: 5px;
 }
 
-.block-views-blockuf-view-block-1 .views-field-field-uf-link, .block-views-blockuf-running-view-block-1 .views-field-field-uf-link {
+.block-views-blockuf-view-block-1 .views-field-field-uf-link, .block-views-blockuf-running-view-block-1 .views-field-field-uf-link { //targest the links to the ufs
   grid-area: link;
   text-align: right;
 }
 
-.block-views-blockuf-view-block-1 .views-field, .block-views-blockuf-running-view-block-1 .views-field {
+.block-views-blockuf-view-block-1 .views-field, .block-views-blockuf-running-view-block-1 .views-field { //targets baisccally all the content induvidually on the uf subpage
   padding-right: 12%;
   width: 100%;
+}
+
+.-ung-foretagsamhet .page-node-type-page .page_title .field--label { //targets the header of the uf subpage
+  background: linear-gradient(30deg, #31B1B1 10%, #5555 100%);
+}
+
+.views-row h2 a[href$="ung-foretagsamhet"] { //targets the uf teaser on the frontpage
+  background: linear-gradient(30deg, #31B1B1 10%, #5555 100%);
 }

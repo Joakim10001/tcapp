@@ -1,66 +1,68 @@
-.view-frontpage .is-promoted h2 {
+.view-frontpage .is-promoted h2 { //targets all h2 on teasers on frontpage
+  //centers h2 in box
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%); //centers text in box
   width: 100%;
-  text-align: center;
+  text-align: center; //centers text in text box
 }
-.region-content .pull-left{
-  float: none !important;
+.region-content .pull-left{ //targets all items with pull left inside content and disabels it
+  float: none !important; //disabels the float left important in bootstrap
 }
-.region-content .logo {
+.region-content .logo { //targets frontpage logo
   width: 100%;
   height: 32vh;
   display: block;
   margin: 5% auto 5% auto;
-  background: url(../images/tc-s-trans.svg) no-repeat;
+  background: url(../images/tc-s-trans.svg) no-repeat; //sets background to be the tc-logo
   background-position: center;
   background-size: contain;
 }
 
-.region-content .logo img {
-  display: none;
+.region-content .logo img { //targets img in frontpage logo
+  display: none; //removes display on frontpage logo image (replaced by background image)
 }
 
-.field--name-field-front-page-image a img{
+.field--name-field-front-page-image a img{ //tagets the img in the a tag in frontpage-image
   width: 100%;
 }
-.view-frontpage .is-promoted h2 a {
+.view-frontpage .is-promoted h2 a {//targets the title of teasers on frontpage
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  background: rgb(41,86,143);
-  background: linear-gradient(30deg, rgba(41,86,143,1) 0%, rgba(85,85,85,0.36) 100%);
-  //box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+  background: rgb(41,86,143); //fallback background if gradient fails
+  background: linear-gradient(30deg, rgba(41,86,143,1) 10%, rgba(85,85,85,0.36) 100%); //default blue gradient on teser cards
+  //box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29); //duplicate, will do dubble shadows if enabled
 }
 
-.view-frontpage .view-content {
-  display: flex;
+.view-frontpage .view-content {//Targets the container containing all teasers in frontpage
+  display: flex; //alignes the teasers
   flex-wrap: wrap;
   justify-content: space-between;
   flex-grow: 3;
   flex-shrink: 3;
 }
-.view-frontpage .views-row {
+.view-frontpage .views-row { //targets the container for all the teasers
   max-width: 45%;
   margin: 2%;
   height: 25vw;
   width: 100%;
 }
 
-.view-frontpage article{
+.view-frontpage article{ //targets the container (for the teasers) inside the .views-row container
   height: 100%;
 }
 
-.view-frontpage article .content{
+.view-frontpage article .content{ // targets the content of all the teasers
   height: 100%;
 }
 
-.view-frontpage article .content .field--name-field-front-page-image{
+.view-frontpage article .content .field--name-field-front-page-image{ //targets the container for the teaser image displayed
   height: 100%;
 }
-.view-frontpage .is-promoted h2 {
+.view-frontpage .is-promoted h2 { //targets the teasers title
+  //positions it centerd on the teaser
   position: absolute;
   top: 50%;
   left: 50%;
@@ -70,72 +72,72 @@
   text-align: center;
   z-index: 1;
 }
-.view-frontpage .field--name-field-front-page-image a img{
+.view-frontpage .field--name-field-front-page-image a img{ //targets the image inm the image container in the teasers
   width: 100%;
 }
-.view-frontpage .is-promoted h2 a {
+.view-frontpage .is-promoted h2 a { //targets the link in the title of the teasers
   color: white;
   text-decoration: none;
   display: block;
   width: 100%;
   height: 100%;
 }
-.view-frontpage .is-promoted h2 a span{
+.view-frontpage .is-promoted h2 a span{ //targets the text in the link in the title of the teasers and centers it
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.view-frontpage .content .page_title h1 {
+.view-frontpage .content .page_title h1 {//targets the page title of the frontpage and hides it
   display: none
 }
 
-.view-frontpage .view-content {
+.view-frontpage .view-content { //Targets the container containing all teasers in frontpage
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-grow: 3;
   flex-shrink: 3;
 }
-.view-frontpage .views-row {
+.view-frontpage .views-row { //targets all the teasers
   max-width: 42%;
   margin: 4%;
   max-height: 24vh;
 }
 
-.view-frontpage article{
+.view-frontpage article{ //targets all the teaser article element
   height: 100%;
   border-radius: 5px;
   position: relative;
 }
-.view-frontpage article .content{
+.view-frontpage article .content{ //targets all the content in the teasers
   height: 100%;
-  position: relative;
+  position: relative; //makes position absolute fit the teaser and not the page
 }
-.view-frontpage article .content .field--name-field-front-page-image{
-  height: 100%;
-}
-.view-frontpage article .content .field--name-field-front-page-image a{
+.view-frontpage article .content .field--name-field-front-page-image{ //taregts the image container of the teasers
   height: 100%;
 }
-.view-frontpage article .content .field--name-field-front-page-image a img{
+.view-frontpage article .content .field--name-field-front-page-image a{ //targets the link in the image contaienr of the teasers
+  height: 100%;
+}
+.view-frontpage article .content .field--name-field-front-page-image a img{ //targets the image of the teasers
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 }
 
-.block-views-block-frontpage-content-block--frontpage-content-block h2{
+.block-views-block-frontpage-content-block--frontpage-content-block h2{ //removes the title of the frontpage content block
   display: none;
 }
-.block-views-block-frontpage-content-block--frontpage-content-block ul{
+.block-views-block-frontpage-content-block--frontpage-content-block ul{ //targets the list of teasers on the frontpage
   list-style: none;
   margin: 4%;
   padding: 0;
 
 }
-.block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video{
+.block-views-block-frontpage-content-block--frontpage-content-block ul iframe, .block-views-block-frontpage-content-block--frontpage-content-block ul video{ //targets the iframe/video depends on if it is a youtube or local video
   width: 100%;
   max-height: 30vh;
   object-fit: cover;
@@ -144,6 +146,6 @@
   box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 
 }
-.feed-icons{
+.feed-icons{ //hides the feed-icons
   display: none;
 }

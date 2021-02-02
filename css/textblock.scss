@@ -1,22 +1,22 @@
 
-.textblock-list li{
+.textblock-list li{ //targets all the list items in all the textblocks
   margin-left: -3px;
   padding-left: 20px;
   margin: 10% 0;
 }
-.views-field-field-textblock-link {
+.views-field-field-textblock-link { //targets all the textblock links
   text-align: right;
   padding-top: 3vh
 }
 
-.textblock-list li:nth-of-type(odd) {
+.textblock-list li:nth-of-type(odd) { //targets every odd textblock
   border-left: 4px solid #d39100;
 }
 
-.textblock-list  li:nth-of-type(even) {
+.textblock-list  li:nth-of-type(even) { //targets every even textblock
   border-left: 4px solid #29568f;
 }
 
-.textblock-list li h2{
+.textblock-list li h2{ //targets the h2 of every textblock
   padding-bottom: 1vh
 }

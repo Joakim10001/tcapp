@@ -13,6 +13,10 @@
   margin: 0 auto 10% auto;
 }
 
+#block-views-block-uf-running-view-block-1 {
+  margin-top: 10%;
+}
+
 .block-views-blockuf-view-block-1 li, .block-views-blockuf-running-view-block-1 li {
   background: white;
   box-shadow: 0px 10px 14px 3px rgba(0, 0, 0, 0.29);
@@ -54,6 +58,14 @@
 .block-views-blockuf-view-block-1 .views-field, .block-views-blockuf-running-view-block-1 .views-field {
   padding-right: 12%;
   width: 100%;
+}
+
+.-ung-foretagsamhet .page-node-type-page .page_title .field--label {
+  background: linear-gradient(30deg, #31B1B1 10%, #5555 100%);
+}
+
+.views-row h2 a[href$=ung-foretagsamhet] {
+  background: linear-gradient(30deg, #31B1B1 10%, #5555 100%);
 }
 
 /*# sourceMappingURL=uf.css.map */
