@@ -30,7 +30,7 @@ margin: 4%;
 
 }
 
-.views-row h2 a[href$="/tcapp/web/utmarkelser"] {
+.views-row h2 a[href$="utmarkelser"] {
   background: linear-gradient(30deg, #D39100 10%, #19595955 100%);
 }
 .-tcapp-web-utmarkelser .page-node-type-page .page_title .field--label {

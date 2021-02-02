@@ -29,7 +29,7 @@ body { /*styles the body on all pages*/
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
-.views-row h2 a[href$="foretag"] { /*styles the för föreatag teaser on frontpage*/
+.views-row h2 a[href$="/foretag"] { /*styles the för föreatag teaser on frontpage*/
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
