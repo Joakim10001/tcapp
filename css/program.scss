@@ -50,10 +50,10 @@
   padding: 0;
   margin: 8vh 0 0 0;
 }
-.-program .page-node-type-page .page_title .field--label {
+.-program .page-node-type-page .page_title .field--label { //targets the title on the page program
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
 
-.views-row h2 a[href$="program"] {
+.views-row h2 a[href$="program"] { //tarets the frontpage teaser for the page program
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }

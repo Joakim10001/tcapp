@@ -1,5 +1,5 @@
-.navbar {
-  position: fixed;
+.navbar { //taregts the navbar
+  position: fixed;//position the navbar at the bottom of the screen
   left:50%;
   transform: translate(-50%, 0%);
   z-index: 2;
@@ -9,30 +9,30 @@
   background: #29568f;
   height: 8vh;
 }
-.navbar .navbar-header
+.navbar .navbar-header // targets the TC crown container of the navbar
 {
   height: 95%;
 }
-.navbar .region-navigation{
+.navbar .region-navigation{ // targets the contaiener for navigation items in the navbar
   height: 100%;
 }
-.navbar a{
+.navbar a{ //targets all links in the navbar
   color: white;
   height: 100%;
 }
-.navbar .region-navigation a{
+.navbar .region-navigation a{ //targets all the links in the navigation section of the navbar
   margin: 0;
   padding: 0;
   position: relative;
   z-index: 50;
 }
-.navbar .region-navigation a img{
+.navbar .region-navigation a img{ // targets all the images that are in the navigation links (tc crown and search icon?)
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-#block-searchbutton {
+#block-searchbutton { //targets the search button block
   width: 100%;
   height: 100%;
   position: absolute;
@@ -40,13 +40,13 @@
   top: 0;
 }
 
-#block-searchbutton  div p {
+#block-searchbutton  div p { //targets the p tag in the blue search button (P tag forced by drupal)
   height: 100%;
   position: absolute;
   width: 100%;
 }
 
-#block-searchbutton button.icon {
+#block-searchbutton button.icon { //targets the blue search button icon
   position: absolute;
   right: 11%;
   height: 100%;
@@ -56,38 +56,38 @@
   border: none;
 }
 
-#block-searchbutton button.icon:focus {
+#block-searchbutton button.icon:focus { //targets the blue search button icon when in focus
   outline: none;
   border: none;
 }
 
-#block-tcapp-search {
+#block-tcapp-search { //taregts the entire searchblock (the one that hides and shows)
   position: absolute;
-  top: -8vh;
+  top: -8vh; //positions it over the navbar wich is 8vh in height
   height: 8vh;
   width: 100%;
   left: 0;
 }
 
-#search-block-form {
+#search-block-form { //targets the search form
   height: 100%;
-  display: none;
+  display: none; //hides it at first (this is changed/overriden when the blue search button is pressed)
 }
 
-#block-tcapp-search .form-item {
+#block-tcapp-search .form-item {  //targets the form items in the search block
   height: 100%;
   margin: 0;
 }
 
-#block-tcapp-search .input-group {
+#block-tcapp-search .input-group { //targets the input items in the search block
   height: 100%;
 }
 
-#block-tcapp-search #edit-keys {
+#block-tcapp-search #edit-keys { //targets text input field in the search form
   height: 100%;
   border: none;
   font-size: 2em;
-  padding-left: min(15vw, 110px);
+  padding-left: min(15vw, 110px); //centers text in middle of screen
   text-align: center;
 
   border-radius: 5px;
@@ -95,12 +95,12 @@
   border-bottom-right-radius: 0;
 }
 
-#block-tcapp-search .input-group-btn {
+#block-tcapp-search .input-group-btn { //taregets the search button
   width: 15vw;
   max-width: 100px;
 }
 
-#block-tcapp-search .input-group-btn > button:nth-child(1) {
+#block-tcapp-search .input-group-btn > button:nth-child(1) { //targets the search button
   height: 100%;
   width: 100%;
   padding: 0;
@@ -110,23 +110,18 @@
   border-bottom-left-radius: 0;
 }
 
-#block-tcapp-search span.icon {
+#block-tcapp-search span.icon { // targets the icon of the search button
   font-size: 1.5em;
 }
 
-.region-content .search-form {
+.region-content .search-form { // hides something that i dont remember what it looked like
   display: none;
 }
 
-//.region-content h2:first-of-type{
-//  text-align: center;
-//  margin: 3em;
-//}
-
-.main-container ol{
+.main-container ol{ //removes list styles from ol lists in search results
   list-style: none
 }
-.main-container ol li{
+.main-container ol li{ //styles search results
   background: white;
   box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
   margin: 3.2vh 0;

@@ -1,44 +1,45 @@
-.page-node-type-page .main-container {
+.page-node-type-page .main-container { //styles the main container for all nodes of type pages (all basic pages)
   margin: 0;
   padding: 0;
   width: 100vw;
   margin: 0 auto;
 }
 
-.page-node-type-page .row{
+.page-node-type-page .row{ //targets all rows on all subpages
   margin: 0;
 }
 
-.page-node-type-page .main-container .row .col-sm-12 {
+.page-node-type-page .main-container .row .col-sm-12 { //tarets the main container for all subpage
     margin: 0;
     padding: 0;
 }
 
-.page-node-type-page .region-content section {
+.page-node-type-page .region-content section { //tarets all the sections of content in content on all the pages
     width: 92%;
     margin: auto;
 }
 
-.page-node-type-page .field--name-field-front-page-image{
+.page-node-type-page .field--name-field-front-page-image{ //tagets the frontpageimage container in all headers on all subpages
   width: 100%;
 }
 
-.page-node-type-page .field--name-field-front-page-image img {
+.page-node-type-page .field--name-field-front-page-image img { //targets the image in all the frontpage-image containers in all headrs on all subpages
   width: 100%;
   border-radius: 0 0 5px 5px;
   margin-bottom: 7vh;
 
   height: 16vh;
-  object-fit: cover;
+  object-fit: cover; //makes the image cover the header
   box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
 
 }
 
-.page-node-type-page .page_title {
-  position: relative;
+.page-node-type-page .page_title { //targets the page title
+  position: relative; //makes it possible for childs to have a position absolute relative to this
 }
 
-.page-node-type-page .page_title h1 {
+.page-node-type-page .page_title h1 { //targets the heading/title text on all subpages
+  //positions it centerd
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,7 +52,7 @@
   color: white;
   font-weight: bold;
 }
-.page-node-type-page .page_title .field--label {
+.page-node-type-page .page_title .field--label { //targets the header field
   height: 101%;
   width: 100%;
   color: #0000;
