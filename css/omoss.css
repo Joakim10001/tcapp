@@ -63,4 +63,9 @@
   background: black;
 }
 
+.-om-teknikcollege + div iframe {
+margin: 5% auto;
+display: block;
+width: 92%;
+}
 /*# sourceMappingURL=omoss.css.map */
