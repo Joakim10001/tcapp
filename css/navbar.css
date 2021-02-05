@@ -71,11 +71,11 @@
   height: 8vh;
   width: 100%;
   left: 0;
+  display: none;
 }
 
 #search-block-form {
   height: 100%;
-  display: none;
 }
 
 #block-tcapp-search .form-item {
