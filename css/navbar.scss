@@ -67,11 +67,11 @@
   height: 8vh;
   width: 100%;
   left: 0;
+  display: none; //hides it at first (this is changed/overriden when the blue search button is pressed)
 }
 
 #search-block-form { //targets the search form
   height: 100%;
-  display: none; //hides it at first (this is changed/overriden when the blue search button is pressed)
 }
 
 #block-tcapp-search .form-item {  //targets the form items in the search block
