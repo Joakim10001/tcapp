@@ -26,8 +26,6 @@
 .page-node-type-page .field--name-field-front-page-image img { //targets the image in all the frontpage-image containers in all headrs on all subpages
   width: 100%;
   border-radius: 0 0 5px 5px;
-  margin-bottom: 7vh;
-
   height: 16vh;
   object-fit: cover; //makes the image cover the header
   box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
