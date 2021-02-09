@@ -2,6 +2,20 @@ framework:
   css:
     theme:
       css/style.css: {}
+      css/bootstrap.css: {}
+      css/font.css: {}
+      css/subpage.css: {}
+      css/frontpage.css: {}
+      css/footer.css: {}
+      css/utmarkelser.css: {}
+      css/contact.css: {}
+      css/events.css: {}
+      css/navbar.css: {}
+      css/omoss.css: {}
+      css/uf.css: {}
+      css/samverkanforetag.css: {}
+      css/textblock.css: {}
+      css/program.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
