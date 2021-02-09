@@ -3,14 +3,14 @@
  * your custom CSS modifications here.
  */
 
- /*IMPORTS --General css*/
+ /*IMPORTS --General css*//*
 @import url(bootstrap.css);
 @import url(font.css);
 @import url(subpage.css);
 @import url(frontpage.css);
 @import url(footer.css);
-
-/*IMPORTS --page specific */
+*/
+/*IMPORTS --page specific *//*
 @import url(utmarkelser.css);
 @import url(contact.css);
 @import url(events.css);
@@ -20,7 +20,7 @@
 @import url(samverkanforetag.css);
 @import url(textblock.css);
 @import url(program.css);
-
+*/
 body { /*styles the body on all pages*/
   background:#E8E8E8;
 }
