@@ -75,6 +75,8 @@
     display: flex;
     gap: 2vh;
     flex-wrap: nowrap;
+    width: 92%;
+    margin: 0 auto;
   }
 }
 .-program .page-node-type-page .page_title .field--label {
