@@ -16,6 +16,7 @@ framework:
       css/samverkanforetag.css: {}
       css/textblock.css: {}
       css/program.css: {}
+      css/search.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
