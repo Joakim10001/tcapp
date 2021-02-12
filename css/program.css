@@ -1,5 +1,10 @@
 .view-id-program li {
   position: relative;
+  flex-grow: 1;
+}
+
+.view-id-program ul li:nth-of-type(1) {
+  width: 100%;
 }
 
 .view-id-program li h2 {
@@ -49,6 +54,13 @@
 .view-id-program ul {
   padding: 0;
   margin: 8vh 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh;
+}
+
+.view-id-program ul li .field--name-field-front-page-image {
+  margin-bottom: 0;
 }
 
 .-program + div + div img {
