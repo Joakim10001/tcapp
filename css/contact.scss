@@ -1,0 +1,98 @@
+.view-id-kontakt_ ul { //removes styling of all Unorderd lists on the contact page
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.view-id-kontakt_ li, .contacts .content  { //targets all li elements on contact page
+  //styles the li to a 'card' like all others on website
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+  margin: 3.2vh 0;
+  padding: 5%;
+  border-radius: 5px;
+  //displays all content of li as grid
+  display: grid;
+  gap: 0 5%;
+}
+.view-id-kontakt_ li { //targets the HTML list of labels in contact card
+  //makes a grid with areas: img, name, title, email, number
+  grid-template-areas:
+    "img name"
+    "img title"
+    "img email"
+    "img number";
+}
+.contacts .content  { //duplicate???
+  grid-template-areas:
+    "img title"
+    "img email"
+    "img number";
+  margin-top: 0;
+
+}
+
+.views-field-field-contact-image, .field--name-field-contact-image { //targets the 'contact-image' field of contact in contact card
+  grid-area: img;
+  border-radius: 5px;
+}
+.views-field-field-contact-image img, .field--name-field-contact-image img { //targets the image in the field 'conact-image'
+  width: 100%;
+  min-width: 126px;
+  min-height: 126px;
+  border-radius: 5px;
+}
+
+.block-views-blockkontakt--block-1 .views-field-title { //targets the field 'title' in contact card
+  grid-area: name;  //places the title in name area of grid on card
+  width: 50vw;
+}
+.block-views-blockkontakt--block-1 .views-field-title h2 { //targets the h2 in field title in contact card
+  padding: 0;
+  margin: 0;
+}
+
+.views-field-field-contact-position, .field--name-field-contact-position{ //targets the field 'contact-position' in the contact card
+  grid-area: title; //places the contact-position in title section of grid
+  font-weight: bold;
+}
+
+.views-field-field-contact-email, .field--name-field-contact-email { //targets the field 'contact-email' in the contact card
+  grid-area: email; //places the contact-email in email section of grid
+  font-size: 1.5rem;
+}
+
+.views-field-field-contact-number, .field--name-field-contact-number { //targets the field 'contact-number' in the contact card
+  grid-area: number; //places the contact-number in the number section of grid
+}
+
+//google-maps map at bottom
+.google-maps h2 { //removes veiw title for google-maps
+  display: none;
+}
+.google-maps .field--label{ //removes field title for google-maps
+  display: none
+}
+.google-maps iframe{ //styles the size for google-maps iframe
+  width: 100%;
+  border-radius: 5px;
+}
+.google-maps .field--item{ //styles the google-maps field to be a 'card' like rest of content on website
+  background: white;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29); //shadow used for cards on entire website
+  margin: 3.2vh 0;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+//email text sizing on diffrent screen sizes
+@media only screen and (max-width: 500px) {  //for screens smaller than 500px wide
+  .views-field-field-contact-email, .field--name-field-contact-email {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (min-width: 1000px) { //for screens larger than 1000px wide
+  .views-field-field-contact-email, .field--name-field-contact-email {
+    font-size: 2rem;
+  }
+}

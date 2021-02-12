@@ -1,0 +1,79 @@
+/* bootstrap.css | http://213.188.152.114/tcapp/web/themes/tcapp/css/bootstrap.css */
+
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl {
+  /* margin-top: 0; */
+  /* margin-bottom: 1rem; */
+  display: grid;
+  grid-column-gap: 20px;
+
+  /*! justify-content: space-between; */
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0;
+
+
+}
+
+@media screen and (max-width: 768px) {
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl{
+  grid-template-columns: repeat(1, 1fr);
+}
+}
+
+@media screen and (min-width: 768px) {
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl{
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media screen and (min-width: 992px) {
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl{
+  grid-template-columns: repeat(3, 1fr);
+}
+}
+
+@media screen and (min-width: 2000px) {
+.view-utmarkelser ol,.view-utmarkelser ul,.view-utmarkelser dl{
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
+.view-utmarkelser .item-list > ul:nth-child(1) > li > span:nth-child(1) > h2:nth-child(1)
+{
+
+  border-bottom-style: solid;
+  border-color: #d39100;
+  margin-bottom: 5px;
+
+}
+
+
+.view-utmarkelser .item-list > ul:nth-child(1) > li {
+
+margin: 15px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 14px 3px rgba(0,0,0,0.29);
+   list-style: none;
+   background-color: white;
+
+
+
+  }
+
+.views-row h2 a[href$="utmarkelser"] {
+  background: linear-gradient(30deg, #D39100 10%, #19595955 100%);
+}
+.-tcapp-web-utmarkelser .page-node-type-page .page_title .field--label {
+  background: linear-gradient(30deg, #D39100 10%, #19595955 100%);
+}
+
+
+
+/* bootstrap.css | http://213.188.152.114/tcapp/web/themes/tcapp/css/bootstrap.css */
+
+
+
+
+}

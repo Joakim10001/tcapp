@@ -1,0 +1,82 @@
+.footer { //targets the .footer (site wide)
+  margin-top: 5vh;
+  padding-top: 28vh;
+  padding-bottom: 19vh;
+  margin-bottom: 12vh;
+  background: url(/themes/tcapp/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 113vh;
+}
+
+.instagram { //targets instagram logo in footer
+  padding-top: 3.5vh;
+  padding-bottom: 4.5vh;
+  padding-right: 4.5vh;
+  padding-left: 4.5vh;
+  //sets background to instagram icon
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/instagram.svg);
+  background-repeat: no-repeat;
+  background-size: 9vh;
+}
+
+.facebook { //targets facebook in footer
+  padding-top: 3.5vh;
+  padding-bottom: 4.5vh;
+  padding-right: 4.5vh;
+  padding-left: 4.5vh;
+  //sets background to facebook icon
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/facebook.svg);
+  background-repeat: no-repeat;
+  background-size: 9vh;
+}
+
+
+.twitter { //targets twitter in footer
+  padding-top: 3.5vh;
+  padding-bottom: 3.5vh;
+  padding-right: 4.5vh;
+  padding-left: 4.5vh;
+  //sets background to twitter icon
+  background: url(https://raw.githubusercontent.com/Joakim10001/tcapp/643057291467ddae388cd6a9f67a5a1bfa404809/images/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 9vh;
+}
+
+.sociala { //targets all socail icon links in footer
+ font-size: 6vh;
+ text-align: center;
+ color: #29568f;
+}
+
+.tcstenungsund { //targets element with class tcstenungsund
+ font-size: 5.5vh;
+ text-align: center;
+ margin-top: 2vh;
+ color: #29568f;
+}
+
+.instagram,.facebook,.twitter { //targets all socail icon links in footer
+  background-size: contain; //makes the icons not crop
+}
+
+.testedcontainer { //targets testedcointaner (container containing all social icons)
+  //displays all icons in flex
+ display: flex;
+ flex-direction: row; //makes the flex a row
+ flex-wrap: nowrap; //makes the flex single line
+ justify-content: center; //centers icons
+ padding-top: 3.5vh;
+ padding-bottom: 4.5vh;
+ margin-top: 5vh;
+ max-width: 100vw;
+}
+
+@media (orientation: landscape) { //if orientation of screen is landscape
+  .footer {
+    background-position: space-evenly; //cenetr the tc crown
+  }
+}
+
+.footer a:hover { //targets a tags in footer that are hoverd
+  text-decoration: none; //remove styling
+}

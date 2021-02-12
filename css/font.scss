@@ -1,0 +1,43 @@
+body { //targets body
+  font-family: Arial_GEO; //sets website font to Arial, Which is specified in the style guide
+  font-size: 2rem; //sets default font size
+}
+h1{ //targets all h1
+  font-size: 4rem; //sets default font size
+}
+
+h2 { //targets all h2
+  font-size: 2.5rem; //sets default font size
+  font-weight: bold; //sets all h2 to be bold (to diffrianticate between text and heading easier)
+}
+
+//fonts for diffrent screen sizes
+@media only screen and (max-width: 500px) { //for screens smaller than 500px in width
+  body {// targets body
+    font-size: 1.5rem;
+  }
+  h2{// targets all h2
+    font-size: 1.5rem;
+  }
+  h1{// targets all h1
+  font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 2000px) { //for screens wider than 2000 pixels in width
+  body { // targets body
+    font-size: 3rem;
+  }
+  h2{ // targets all h1
+    font-size: 5rem;
+  }
+  h1{ // targets all h2
+  font-size: 7rem;
+  }
+}
+
+
+@font-face { //imports custom font-family that is specified in tc style guide
+  font-family: Arial_GEO;
+  src: url(../typsnitt/Arial_GEO.TTF);
+}
