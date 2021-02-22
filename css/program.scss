@@ -82,6 +82,12 @@ max-height: 82vh;
   }
 }
 
+@media (orientation: portrait) {
+  .-program + div +.field--name-field-basic-page-images{
+    display: none;
+  }
+}
+
 .-program .page-node-type-page .page_title .field--label { //targets the title on the page program
   background: linear-gradient(30deg, #D39100 10%, #5555 100%);
 }
